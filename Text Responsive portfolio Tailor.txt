@@ -1,0 +1,153 @@
+========== HEADER ==========
+.nav__logo
+Tailor
+
+.nav__link
+Home - Work - My Info - Services - Contact Me
+
+
+========== HOME ==========
+.home__name
+Tailor <br> Lyborm
+
+.home__profession
+Web Developer
+
+.home__scroll-text
+Recent Works
+
+
+========== WORK ==========
+.section__title
+RECENT WORKS
+
+.work__title
+Restaurant Website
+Design Of Products
+Barbershop Website SEO
+Coffee Website
+Panel Design
+
+work__description
+Short description of the project that was 
+carried out in this portfolio.
+
+
+========== INFO ==========
+.section__title
+MY INFO
+
+===== ABOUT =====
+.info__title
+About Me
+
+.about__description
+Passionate about creating <b>websites with beautiful interfaces</b>.
+I have years of experience in  <b>Web Development</b> with several 
+projects completed.
+
+.about__button
+Download CV
+
+===== EXPERIENCE =====
+.info__title
+Experience
+
+.experience__company
+Discord
+Google
+Adobe
+
+.experience__profession
+Web Product Designer
+Web Developer
+Web Designer
+
+.experience__date
+05/23 - Present
+05/21 - 02/22
+01/20 - 03/21
+
+.experience__description
+Short description of the work you do or did 
+in the company.
+
+===== SKILLS =====
+.info__title
+Skills
+
+.skills__name
+HTML - CSS - JavaScript - React - Git
+GitHub - Tailwind CSS - Sass - Figma
+
+
+========== SERVICES ==========
+.section__title
+SERVICES
+
+.services__title
+Web Development
+Web Design
+Responsive Web Design
+Seo (Web Pages)
+
+.services__description
+Short description of the service offered to users 
+to obtain a personalized project.
+
+
+========== CONTACT ==========
+.section__title
+CONTACT ME
+
+.contact__input - placeholder
+Names
+Email
+Message
+
+.contact__button
+Send Message
+
+.contact__social-link
+Facebook
+Instagram
+Linkedin
+
+https://www.facebook.com/
+https://www.instagram.com/
+https://www.linkedin.com/
+
+
+========== CONTACT JS ==========
+// serviceID - templateID - #form - publicKey
+
+   // Show sent message
+      Message sent successfully ✅
+
+   // Remove message after five seconds
+
+   // Clear input fields
+
+   // Show error message
+      Message not sent (service error) ❌
+
+Subject *
+New message from {{user_name}}
+
+Content *
+Names: {{user_name}}
+
+Email: {{user_email}}
+
+Message: {{user_message}}
+
+Best wishes,
+EmailJS team
+
+
+========== FOOTER ==========
+.footer__links
+Home - Work - Info
+
+.footer__copy
+&#169; All Rights Reserved By Bedimcode
