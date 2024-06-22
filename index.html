@@ -18,50 +18,336 @@
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
-      </header>
-      
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Ruchitha</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                   <li>
+                    <a href="#home" class="nav__link">Home</a>
+                   </li>
+
+                   <li>
+                    <a href="#work" class="nav__link">Work</a>
+                   </li>
+
+                   <li>
+                    <a href="#info" class="nav__link">My Info</a>
+                   </li>
+
+                   <li>
+                    <a href="#services" class="nav__link">Services</a>
+                   </li>
+
+                   <li>
+                    <a href="#contact" class="nav__link">Contact Me</a>
+                   </li>
+                </ul>
+
+                <!-- close button -->
+                 <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                 </div>
+            </div>
+
+            <!-- Toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+             </div>
+        </nav>
+      </header>     
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
+            <div class="home__container container grid">
+               <img src = "assets/img/home-perfil.png" alt = "image" class = "home__img">
+            </div>
 
+            <div class="home__data">
+               <h1 class="home__name">Ruchitha<br> Kambhampati</h1>
+               <h3 class="home__profession">Under grad in computer science</h3>
+            </div>
+
+            <center>
+               <a href="work" class="home__scroll">
+                  <div class="home__scroll-box">
+                     <i class = "ri-arrow-down-line"></i>
+                  </div>
+
+                  <span class="home__scroll-text">Recent work</span>
+               </a>
+            </center>
          </section>
 
          <!--==================== WORKS ====================-->
          <section class="work section" id="work">
+            <h2 class="section__title">RECENT WORKS</h2>
 
+            <div class="work__container container grid">
+               <article class="work__card">
+                  <a href="#" target = "_balnk" class="work__link">
+                     <h2 class="work__title">Project 1</h2>
+                     <p class="work__description">
+                        Short description of the project that was 
+                        carried out in this portfolio.
+                     </p>
+
+                     <img src = 'assets/img/work-1.jpg' alt = "image" class = "work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target = "_balnk" class="work__link">
+                     <h2 class="work__title">Project 2</h2>
+                     <p class="work__description">
+                        Short description of the project that was 
+                        carried out in this portfolio.
+                     </p>
+
+                     <img src = 'assets/img/work-2.jpg' alt = "image" class = "work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target = "_balnk" class="work__link">
+                     <h2 class="work__title">Project 3</h2>
+                     <p class="work__description">
+                        Short description of the project that was 
+                        carried out in this portfolio.
+                     </p>
+
+                     <img src = 'assets/img/work-3.jpg' alt = "image" class = "work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target = "_balnk" class="work__link">
+                     <h2 class="work__title">Project 4</h2>
+                     <p class="work__description">
+                        Short description of the project that was 
+                        carried out in this portfolio.
+                     </p>
+
+                     <img src = 'assets/img/work-4.jpg' alt = "image" class = "work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target = "_balnk" class="work__link">
+                     <h2 class="work__title">Project 5</h2>
+                     <p class="work__description">
+                        Short description of the project that was 
+                        carried out in this portfolio.
+                     </p>
+
+                     <img src = 'assets/img/work-5.jpg' alt = "image" class = "work__img">
+
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+            </div>
          </section>
 
          <!--==================== INFO ====================-->
          <section class="info section" id="info">
+            <h2 class="section__title">MY INFO</h2>
 
+            <div class="info__container container grid">
+               <!-- ABOUT -->
+                <div class="about grid">
+                  <div class="about__content">
+                     <h3 class="info__title">About Me</h3>
+                     <p class="about__description">
+                        I am a <span class = "about__me">Fresher</span> ,
+                        <br> an undergraduate in the field of computer science and<br>
+                         enthusiastic in <span class=about__me>programming</span>,<br>
+                         <span class=about__me>Machine learning</span> and<br> 
+                         <span class=about__me>web development</span>.
+                     </p>
+
+                     <!-- resume should be added -->
+                     <a href="assets/pdf/Tailor-Cv.pdf" dowload = "" target = "_blank"class="button about__button">Download CV</a>
+                  </div>
+
+                  <!-- Image have to changed -->
+                  <img src = "assets/img/info-perfil.png" alt = "image" class = "about__img">
+                </div>
+
+                <!-- ======= Experience =========== -->
+                <div class="experience">
+                  <h3 class="info__title">Experience</h3>
+
+                  <div class="experience__content grid">
+
+                     <!-- Copy paste the div to add ur experience -->
+
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Name of the company</h2>
+
+                        <div>
+                           <h3 class="experience__profession">Job</h3>
+                           <span class = "experience__date">Date</span>
+                           <p class="experience__description">
+                              short descriptionof the work you have done
+                           </p>
+                        </div>
+                     </div>
+
+                     <!-- End of the experience div -->
+
+                  </div>
+                </div>
+
+                <!-- ======== Skills ============ -->
+                <div class="skills">
+                  <h3 class="info__title">Skills</h3>
+
+                  <div class="skills__content grid">
+                     <div class="skills__box">
+                        <img src = "assets/img/info-html.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">HTML</span>
+                     </div>
+                     <div class="skills__box">
+                        <img src = "assets/img/info-css.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">CSS</span>
+                     </div>
+                     <div class="skills__box">
+                        <img src = "assets/img/info-javascript.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">Java Script</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src = "assets/img/info-python.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">python</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src = "assets/img/info-msoffice.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">MS Office</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src = "assets/img/info-git.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">git</span>
+                     </div>
+                     
+                     <div class="skills__box">
+                        <img src = "assets/img/info-github.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">github</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src = "assets/img/info-tensorflow.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">Machine Learning</span>
+                     </div>
+
+                     <div class="skills__box">
+                        <img src = "assets/img/info-power-bi.svg" alt="image" class= "skills__img">
+                        <span class="skills__name">Data Science</span>
+                     </div>
+
+                  </div>
+                </div>
+            </div>
          </section>
 
          <!--==================== SERVICES ====================-->
          <section class="services section" id="services">
+            <h2 class="section__title">SERVICES</h2>
 
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <i class="ri-code-box-line services__icon"></i>
+
+                  <h3 class="services__title">Web development</h3>
+                  <p class="services__description">
+                     Short descrption of the services offered to the users to btain a personalized project
+                  </p>
+               
+               </article>
+            </div>
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
 
+            <div class="contact__container container grid">
+               <form action="" class="contact__form grid" id="contact-form">
+                  <div class="contact__group grid">
+                     <input type="text" name = "user_name" placeholder="Names" required class="contact__input">
+                     <input type="email" name = "user_email" placeholder="Email" required class="contact__input">
+                  </div>
+                  <textarea name="user_message" placeholder = "Message" class="contact__input contact__area"></textarea>
+
+                  <button type ="submit" class="button contact__button">Send Message</button>
+                  <p class="contact__message" id="contact-message">Message</p>
+               </form>
+
+               <div class="contact__social grid">
+                  <a href="" target="_blank" class="contact__social-link">
+                     <i class="ri-github-fill"></i>
+                     <span>Github</span>
+                  </a>
+
+                  <a href="" target="_blank" class="contact__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                     <span>Linkedin</span>
+                  </a>
+
+                  <a href="" target="_blank" class="contact__social-link">
+                     <i class="ri-instagram-line"></i>
+                     <span>Instagram</span>
+                  </a>
+
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
 
+               <li>
+                  <a href="#work" class="footer__link">Work</a>
+               </li>
+
+               <li>
+                  <a href="#info" class="footer__link">Info</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               &#169; All Rights Reserved By Rucitha Kambhampati
+            </span>
+         </div>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="'ri-arrow-up-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
 
       <!--=============== EMAIL JS ===============-->
-      <script src=""></script>
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
