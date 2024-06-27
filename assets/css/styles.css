@@ -670,7 +670,7 @@ img {
     margin-inline: 1rem;
   }
 
-  .skill__content{
+  .skills__content{
     grid-template-columns: repeat(2, max-content);
   }
 }
@@ -681,7 +681,8 @@ img {
   .work__container,
   .info__container,
   .services__container,
-  .contact__container{
+  .contact__container
+  {
     grid-template-columns: 350px;
     justify-content: center;
   }
@@ -751,7 +752,7 @@ img {
     margin-bottom: 4rem;
   }
 
-  .bav{
+  .nav{
     height: calc(var(--header-height)+ 2rem)
   }
 
